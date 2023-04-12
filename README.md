@@ -16,7 +16,7 @@ To install the dependencies, you can use the following command:
 
 ``` nltk.download('stopwords') ```
 
-``` nltk.download('wordnet') ```
+``` nltk.download('wordnet') ``` 
 
 ``` nltk.download('omw-1.4') ```
 
