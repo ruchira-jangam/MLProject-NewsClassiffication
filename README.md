@@ -12,7 +12,13 @@ nltk
 
 To install the dependencies, you can use the following command:
 
-pip install pandas numpy scikit-learn nltk
+> pip install pandas numpy scikit-learn nltk
+
+` nltk.download('stopwords') `
+
+nltk.download('wordnet')
+
+nltk.download('omw-1.4')
 
 ## Data Preprocessing
 The dataset contains a lot of noise and irrelevant information, which can affect the performance of the machine learning model. Therefore, we use NLP techniques such as lemmatization and stemming to clean the text data. We also use the TfidfVectorizer from scikit-learn to convert the text data into numerical vectors that can be fed into the machine learning model.
